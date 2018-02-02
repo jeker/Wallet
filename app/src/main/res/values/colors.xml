@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="white">#ffffffff</color>
+
+
+
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="md_grey_700">#616161</color>
+
+
+
+  <!--new add-->
+
+    <color name="wallet_main_bottom_font_color">#585858</color>
+    <color name="wallet_text_color_enhance">#ff9000</color>
+
+    <color name="wallet_fafafa">#fafafa</color>
+    <color name="wallet_f8f8f8_color">#f8f8f8</color>
+    <color name="pay_recharge_text_color">#666666</color>
+    <color name="pay_recharge_bottom_tel_text_color">#888888</color>
+    <color name="wallet_dadada">#dadada</color>
+    <color name="pay_actionbar_color">#efefef</color>
+</resources>

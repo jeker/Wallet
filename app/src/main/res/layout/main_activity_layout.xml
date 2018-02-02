@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                                        xmlns:tools="http://schemas.android.com/tools"
+                                        android:id="@+id/dl_root"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:fitsSystemWindows="true"
+                                        tools:openDrawer="start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/fl_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:context=".ui.activity.MainActivity"/>
+
+
+        <Button
+            android:id="@+id/btn_test"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:visibility="gone"
+            android:text="test_btn"/>
+
+        <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bviv_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+
+        app:itemIconTint="@color/selector_bottom_item_color"
+        app:itemTextColor="@color/selector_bottom_item_color"
+        app:menu="@menu/bottom_navigation_menu"/>
+        <!--style="@style/Widget.Design.BottomNavigationView"-->
+        <!--app:elevation="16dp"-->
+    </LinearLayout>
+
+
+
+    <!--<android.support.design.widget.NavigationView-->
+    <!--android:id="@+id/nv_menu"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_gravity="start"-->
+    <!--app:headerLayout="@layout/nav_header_main"-->
+    <!--app:insetForeground="@android:color/transparent"-->
+    <!--app:menu="@menu/activity_main_drawer"/>-->
+
+</android.support.v4.widget.DrawerLayout>

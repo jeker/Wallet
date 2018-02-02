@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/re_layout"
+              android:layout_width="match_parent"
+              android:layout_height="120dp"
+              android:background="@drawable/wallet_service_list_bg">
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/demo"
+            />
+
+        <TextView
+            android:id="@+id/channel_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icon"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/pay_recharge_text_color"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/channel_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/channel_name"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/pay_recharge_bottom_tel_text_color"
+            android:textSize="10sp"/>
+
+        <ImageView
+            android:id="@+id/special_offer_icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"/>
+
+        <include
+            android:id="@+id/pay_right_dividing_line"
+            layout="@layout/wallet_horizontal_line"
+            android:layout_width="0.33dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+        <ImageView
+            android:id="@+id/icon2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/demo"
+            />
+
+        <TextView
+            android:id="@+id/channel_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icon2"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/pay_recharge_text_color"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/channel_content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/channel_name2"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/pay_recharge_bottom_tel_text_color"
+            android:textSize="10sp"/>
+
+        <ImageView
+            android:id="@+id/special_offer_icon2"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"/>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Wallet</string>
+
+    <string name="wallet_life_assi">首页</string>
+    <string name="wallet_classify">金融超市</string>
+    <string name="wallet_my_wallet">我的</string>
+
+</resources>

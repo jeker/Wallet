@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="selectedGlobalProfile">
+      <Settings>
+        <option name="formatter" value="ECLIPSE" />
+        <option name="id" value="1487324310098" />
+        <option name="importOrderConfigFilePath" value="$USER_HOME$/文档/研发2部/规范/android-java-code-format.xml" />
+        <option name="importOrderFromFile" value="true" />
+        <option name="name" value="default" />
+        <option name="pathToConfigFileJava" value="$USER_HOME$/文档/研发2部/规范/android-java-code-format.xml" />
+        <option name="selectedJavaProfile" value="gionee eclipse java code format" />
+      </Settings>
+    </option>
+  </component>
+</project>
